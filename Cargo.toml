@@ -12,3 +12,7 @@ clap = "2.33.0"
 [[bin]]
 name = "ex_tee"
 path = "src/fileio/ex_tee.rs"
+
+[[bin]]
+name = "ex_seek_write"
+path = "src/fileio/ex_seek_write.rs"
