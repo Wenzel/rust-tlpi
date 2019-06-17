@@ -1,0 +1,13 @@
+[package]
+name = "rust-tlpi"
+version = "0.1.0"
+authors = ["Mathieu Tarral <mathieu.tarral@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.58"
+nix = "0.14.1"
+
+[[bin]]
+name = "ex.tee"
+path = "src/fileio/ex.tee.rs"
